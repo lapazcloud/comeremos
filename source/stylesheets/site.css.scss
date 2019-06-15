@@ -1,0 +1,30 @@
+@charset "utf-8";
+$primary: #DE643D;
+$link: #DE643D;
+$info: #367C92;
+
+@font-face {
+    font-family: "Manrope";
+    src: url("manrope-bold.woff2") format("woff2"),
+    url("manrope-bold.woff") format("woff"),
+    url("manrope-bold.otf") format("truetype");
+    font-style: normal;
+  font-weight: 700; }
+
+@font-face {
+    font-family: "Manrope";
+    src: url("/fonts/manrope-regular.woff2") format("woff2"),
+    url("/fonts/manrope-regular.woff") format("woff"),
+    url("/fonts/manrope-regular.otf") format("truetype");
+    font-style: normal;
+  font-weight: 400; }
+
+@import "../../node_modules/bulma/bulma.sass";
+#map { height: 500px; }
+
+body, html {
+    font-family: "Manrope",sans-serif; }
+  *,*:before,*:after {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased; }

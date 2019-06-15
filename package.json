@@ -1,0 +1,29 @@
+{
+  "name": "comeremos",
+  "version": "0.0.1",
+  "description": "¿Dónde vamos hoy?",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lapazcloud/comeremos.git"
+  },
+  "keywords": [
+    "food",
+    "comida",
+    "la",
+    "paz",
+    "bolivia"
+  ],
+  "author": "Yamil Urbina <hello@yamilurbina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lapazcloud/comeremos/issues"
+  },
+  "homepage": "https://github.com/lapazcloud/comeremos#readme",
+  "dependencies": {
+    "bulma": "^0.7.5"
+  }
+}
