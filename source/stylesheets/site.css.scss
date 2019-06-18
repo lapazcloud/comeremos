@@ -1,7 +1,8 @@
 @charset "utf-8";
-$primary: #DE643D;
+$primary: #DE3C4B;
 $link: #DE643D;
-$info: #367C92;
+$info: #19323C;
+$text: #19323C;
 
 @font-face {
     font-family: "Manrope";
@@ -28,3 +29,5 @@ body, html {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased; }
+
+.dropdown-menu {z-index: 1000;}
